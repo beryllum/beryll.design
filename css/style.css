@@ -101,7 +101,7 @@ a:hover {color:#f44336}
 /*_______HEXAGON END_______________________________________________________________________________________________*\
 \*‾‾‾‾‾‾‾WORD SWITCHER START‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾*/
 .domain {display:block; font-size:3em}
-.texts {display:block; transform:translateY(70%); text-align:center}
+.texts {display:block; transform:translateY(40%); text-align:center}
 .words {-webkit-perspective:800; perspective:800; display:inline-block; position:relative; vertical-align:top; -webkit-transition:all 800ms ease-in-out; transition:all 800ms ease-in-out}
 .words span {position:absolute; font-weight:300; white-space:nowrap; opacity:0; top:50px; left:0; -webkit-transition:all 900ms ease-in-out; transition:all 900ms ease-in-out; -webkit-transform:translateZ(150px) rotateX(100deg); transform:translateZ(150px) rotateX(100deg)}
 .words span.active {opacity:1; top:0; -webkit-transform:translateZ(0px) rotateX(0deg); transform:translateZ(0px) rotateX(0deg)}
