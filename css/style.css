@@ -153,7 +153,7 @@ a:hover {color:#ff3d00}
 	content:attr(tooltip);
 	text-align:center;
 	min-width:3em;
-	max-width:21em;
+	max-width:4em;
 	white-space:nowrap;
 	overflow:hidden;
 	text-overflow:ellipsis;
