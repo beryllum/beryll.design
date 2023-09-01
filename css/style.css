@@ -15,17 +15,17 @@ _________FONTS END______________________________________________________________
 \*‾‾‾‾‾‾‾BASE START‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾*/
 body {background:#0d1820; font-family:'Montserrat',sans-serif; font-weight:400; text-align::center; color:#fff; display:-webkit-box; display:-ms-flexbox; display:flex; -webkit-box-pack:center; -ms-flex-pack:center; justify-content:center; -webkit-box-align:center; -ms-flex-align:center; align-items:center; -webkit-box-orient:vertical; -webkit-box-direction:normal; -ms-flex-direction:column; flex-direction:column}
 a {color:#fff; text-decoration:none; transition:all .5s}
-a:hover {color:#00ffcf}
+a:hover {color:#00d3c8}
 .container {top:0; left:0; width:100%; height:100%; margin:0}
 .links a {font-size:1.6em; margin:20px 14px; z-index:77}
-.teal {color:#00ffcf}
+.teal {color:#00d3c8}
 .white {color:#fff}
 .snow {color:#81d4fa}
 .black {color:#000; background:#fff; padding:0 5px}
 .creative {font-family:'Comic Sans MS',cursive,sans-serif; background-image:-webkit-gradient(linear,left top,right top,color-stop(0,#f22),color-stop(0.15,#f2f),color-stop(0.3,#22f),color-stop(0.45,#2ff),color-stop(0.6,#2f2),color-stop(0.75,#2f2),color-stop(0.9,#ff2),color-stop(1,#f22)); background-image:gradient(linear,left top,right top,color-stop(0,#f22),color-stop(0.15,#f2f),color-stop(0.3,#22f),color-stop(0.45,#2ff),color-stop(0.6,#2f2),color-stop(0.75,#2f2),color-stop(0.9,#ff2),color-stop(1,#f22)); color:transparent; -webkit-background-clip:text; background-clip:text}
 .italic {font-style:italic}
 .wrong {text-decoration:line-through}
-.blurry {color:rgba(0,0,0,0); text-shadow:0px 0px 7px #00ffcf}
+.blurry {color:rgba(0,0,0,0); text-shadow:0px 0px 7px #00d3c8}
 .invisible {color:#0d1820; text-shadow:0px 0px 30px rgba(255,255,255,0.7)}
 /*_______BASE END__________________________________________________________________________________________________*\
 \*‾‾‾‾‾‾‾HEXAGON START‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾*/
@@ -78,8 +78,8 @@ a:hover {color:#00ffcf}
 	100% {-webkit-transform:scale(1); transform:scale(1)}
 }
 @keyframes fade {
-	0% {background:#00ffcf}
-	50% {background:#00ffcf}
+	0% {background:#00d3c8}
+	50% {background:#00d3c8}
 	100% {background:#0d1820}
 }
 @-webkit-keyframes pulse {
@@ -88,8 +88,8 @@ a:hover {color:#00ffcf}
 	100% {-webkit-transform:scale(1);	 transform:scale(1)}
 }
 @-webkit-keyframes fade {
-	0% {background:#00ffcf}
-	50% {background:#00ffcf}
+	0% {background:#00d3c8}
+	50% {background:#00d3c8}
 	100% {background:#0d1820}
 }
 /*_______HEXAGON END_______________________________________________________________________________________________*\
@@ -154,7 +154,7 @@ a:hover {color:#00ffcf}
 	padding:0.7ch;
 	margin-bottom:-1px;
 	border-radius:.3ch;
-	background:#00ffcf;
+	background:#00d3c8;
 	color:#0d1820;
 	font-weight:bold;
 	z-index:1000
@@ -171,7 +171,7 @@ a:hover {color:#00ffcf}
 [tooltip][flow^="up"]::before {
 	bottom:100%;
 	border-bottom-width:0;
-	border-top-color:#00ffcf
+	border-top-color:#00d3c8
 }
 [tooltip]:not([flow])::after,
 [tooltip][flow^="up"]::after {
@@ -187,7 +187,7 @@ a:hover {color:#00ffcf}
 [tooltip][flow^="down"]::before {
 	top:100%;
 	border-top-width:0;
-	border-bottom-color:#00ffcf
+	border-bottom-color:#00d3c8
 }
 [tooltip][flow^="down"]::after {
 	top:calc(100% + 5px)
@@ -200,7 +200,7 @@ a:hover {color:#00ffcf}
 [tooltip][flow^="left"]::before {
 	top:50%;
 	border-right-width:0;
-	border-left-color:#00ffcf;
+	border-left-color:#00d3c8;
 	left:calc(0em - 5px);
 	transform:translate(-.5em,-50%)
 }
@@ -212,7 +212,7 @@ a:hover {color:#00ffcf}
 [tooltip][flow^="right"]::before {
 	top:50%;
 	border-left-width:0;
-	border-right-color:#00ffcf;
+	border-right-color:#00d3c8;
 	right:calc(0em - 5px);
 	transform:translate(.5em,-50%)
 }
