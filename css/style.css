@@ -161,7 +161,8 @@ a:hover {color:#00ffcf}
 	margin-bottom:-1px;
 	border-radius:.3ch;
 	background:#00ffcf;
-	color:#fff;
+	color:#0d1820;
+	font-weight:bold;
 	z-index:1000
 }
 [tooltip]:hover::before,
