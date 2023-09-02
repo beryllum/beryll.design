@@ -125,6 +125,73 @@ a:hover {color:#00d3c8}
 	100% {-webkit-filter:blur(4px); filter:blur(4px)}
 }
 /*_______COMING SOON END___________________________________________________________________________________________*\
+\*‾‾‾‾‾‾‾BERYLLICO FONT START‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾*/
+@font-face {
+  font-family: 'beryllico';
+  src:  url('fonts/beryllico.eot?ay1bqe');
+  src:  url('fonts/beryllico.eot?ay1bqe#iefix') format('embedded-opentype'),
+    url('fonts/beryllico.ttf?ay1bqe') format('truetype'),
+    url('fonts/beryllico.woff?ay1bqe') format('woff'),
+    url('fonts/beryllico.svg?ay1bqe#beryllico') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'beryllico' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-behance:before {
+  content: "\e900";
+}
+.ico-beryll:before {
+  content: "\e901";
+}
+.ico-discord:before {
+  content: "\e902";
+}
+.ico-kinorium:before {
+  content: "\e903";
+}
+.ico-pinterest:before {
+  content: "\e904";
+}
+.ico-pluto:before {
+  content: "\e905";
+}
+.ico-reddit:before {
+  content: "\e906";
+}
+.ico-steam:before {
+  content: "\e907";
+}
+.ico-telegram:before {
+  content: "\e908";
+}
+.ico-vk:before {
+  content: "\e909";
+}
+.ico-wishlist:before {
+  content: "\e90a";
+}
+.ico-ya-music:before {
+  content: "\e90b";
+}
+.ico-youtube:before {
+  content: "\e90c";
+}
+
+/*_______BERYLLICO FONT END________________________________________________________________________________________*\
 \*‾‾‾‾‾‾‾TOOLTIP START‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾*/
 [tooltip] {position:relative}
 [tooltip]::before,
