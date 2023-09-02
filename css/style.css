@@ -1,17 +1,4 @@
-/*‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾\
-⎸ 					                      _                         _  _ 											⎸
-⎸ 					                     | |                       | || |											⎸
-⎸ 					                     | |__    ___  _ __  _   _ | || |											⎸
-⎸ 					                     | '_ \  / _ \| '__|| | | || || |											⎸
-⎸ 					                     | |_) ||  __/| |   | |_| || || |											⎸
-⎸ 					                     |_.__/  \___||_|    \__, ||_||_|											⎸
-⎸ 					                                          __/ |      											⎸
-⎸ 					                                         |___/       											⎸
-\_________________________________________________________________________________________________________________*/
-/*‾‾‾‾‾‾‾FONTS START‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
-@font-face {font-family:"Telefon";	src:url("../fonts/telefon-bold.woff") format('woff'); font-weight:bold}
-@font-face {font-family:"Telefon";	src:url("../fonts/telefon-black.woff") format('woff');	font-weight:black}
-_________FONTS END_________________________________________________________________________________________________*\
+/*_________________________________________________________________________________________________________________*\
 \*‾‾‾‾‾‾‾BASE START‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾*/
 body {background:#0d1820; font-family:'Montserrat',sans-serif; font-weight:400; text-align::center; color:#fff; display:-webkit-box; display:-ms-flexbox; display:flex; -webkit-box-pack:center; -ms-flex-pack:center; justify-content:center; -webkit-box-align:center; -ms-flex-align:center; align-items:center; -webkit-box-orient:vertical; -webkit-box-direction:normal; -ms-flex-direction:column; flex-direction:column}
 a {color:#fff; text-decoration:none; transition:all .5s}
@@ -424,3 +411,4 @@ i {
 	.splash {font-size:1.2em}
 }
 /*_______ADAPTIVE END______________________________________________________________________________________________*\
+\*‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾*/
